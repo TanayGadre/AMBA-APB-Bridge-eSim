@@ -1,0 +1,851 @@
+.title kicad schematic
+
+* u3 sys_transfer_req net-_u102-pad3_ adc_bridge_1
+* u5 gnd net-_u102-pad5_ adc_bridge_1
+* u2 presetn net-_u102-pad2_ adc_bridge_1
+* u4 sys_write_req net-_u102-pad4_ adc_bridge_1
+* u1 pclk net-_u1-pad2_ adc_bridge_1
+* u7 gnd net-_u102-pad7_ adc_bridge_1
+* u6 gnd net-_u102-pad6_ adc_bridge_1
+* u8 gnd net-_u102-pad8_ adc_bridge_1
+* u9 gnd net-_u102-pad9_ adc_bridge_1
+* u10 gnd net-_u10-pad2_ adc_bridge_1
+v3 sys_write_req gnd pulse(0 5 25n 1n 1n 30n 200n)
+v2 sys_transfer_req gnd pulse(0 5 25n 1n 1n 15n 100n)
+* u205 sys_transfer_req plot_v1
+* u206 sys_write_req plot_v1
+v1 presetn gnd pulse(0 5 15n 1n 1n 200n 200n)
+v4 pclk gnd pulse(0 5 0 1n 1n 4n 10n)
+* u203 pclk plot_v1
+* u204 presetn plot_v1
+* u12 gnd net-_u102-pad12_ adc_bridge_1
+* u13 gnd net-_u102-pad13_ adc_bridge_1
+* u11 gnd net-_u102-pad11_ adc_bridge_1
+* u14 gnd net-_u102-pad14_ adc_bridge_1
+* u15 gnd net-_u102-pad15_ adc_bridge_1
+* u16 gnd net-_u102-pad16_ adc_bridge_1
+* u19 gnd net-_u102-pad19_ adc_bridge_1
+* u22 gnd net-_u102-pad22_ adc_bridge_1
+* u18 gnd net-_u102-pad18_ adc_bridge_1
+* u17 gnd net-_u102-pad17_ adc_bridge_1
+* u21 gnd net-_u102-pad21_ adc_bridge_1
+* u20 gnd net-_u102-pad20_ adc_bridge_1
+* u89 gnd net-_u102-pad89_ adc_bridge_1
+* u92 gnd net-_u102-pad92_ adc_bridge_1
+* u93 gnd net-_u102-pad93_ adc_bridge_1
+* u90 gnd net-_u102-pad90_ adc_bridge_1
+* u91 gnd net-_u102-pad91_ adc_bridge_1
+* u94 gnd net-_u102-pad94_ adc_bridge_1
+* u95 gnd net-_u102-pad95_ adc_bridge_1
+* u86 gnd net-_u102-pad86_ adc_bridge_1
+* u87 gnd net-_u102-pad87_ adc_bridge_1
+* u85 gnd net-_u102-pad85_ adc_bridge_1
+* u84 gnd net-_u102-pad84_ adc_bridge_1
+* u88 gnd net-_u102-pad88_ adc_bridge_1
+* u99 gnd net-_u102-pad99_ adc_bridge_1
+* u100 gnd net-_u100-pad2_ adc_bridge_1
+* u96 gnd net-_u102-pad96_ adc_bridge_1
+* u101 net-_i2-pad1_ net-_u101-pad2_ adc_bridge_1
+* u97 gnd net-_u102-pad97_ adc_bridge_1
+* u98 gnd net-_u102-pad98_ adc_bridge_1
+* u77 gnd net-_u102-pad77_ adc_bridge_1
+* u75 gnd net-_u102-pad75_ adc_bridge_1
+* u78 gnd net-_u102-pad78_ adc_bridge_1
+* u76 gnd net-_u102-pad76_ adc_bridge_1
+* u74 gnd net-_u102-pad74_ adc_bridge_1
+* u83 gnd net-_u102-pad83_ adc_bridge_1
+* u82 gnd net-_u102-pad82_ adc_bridge_1
+* u81 gnd net-_u102-pad81_ adc_bridge_1
+* u80 gnd net-_u102-pad80_ adc_bridge_1
+* u79 gnd net-_u102-pad79_ adc_bridge_1
+i2 net-_i2-pad1_ gnd 5v
+i3 net-_i3-pad1_ gnd 5v
+* u207 apb_ready_in plot_v1
+v5 apb_ready_in gnd pulse(0 5 25n 1n 1n 30n 100n)
+* u65 gnd net-_u102-pad65_ adc_bridge_1
+* u69 apb_ready_in net-_u102-pad69_ adc_bridge_1
+* u68 net-_i3-pad1_ net-_u102-pad68_ adc_bridge_1
+* u67 gnd net-_u102-pad67_ adc_bridge_1
+* u66 gnd net-_u102-pad66_ adc_bridge_1
+* u70 gnd net-_u102-pad70_ adc_bridge_1
+* u73 gnd net-_u102-pad73_ adc_bridge_1
+* u72 gnd net-_u102-pad72_ adc_bridge_1
+* u71 gnd net-_u102-pad71_ adc_bridge_1
+* u64 gnd net-_u102-pad64_ adc_bridge_1
+* u61 gnd net-_u102-pad61_ adc_bridge_1
+* u62 gnd net-_u102-pad62_ adc_bridge_1
+* u63 gnd net-_u102-pad63_ adc_bridge_1
+* u59 gnd net-_u102-pad59_ adc_bridge_1
+* u58 gnd net-_u102-pad58_ adc_bridge_1
+* u60 gnd net-_u102-pad60_ adc_bridge_1
+* u167 net-_u102-pad166_ unconnected-_u167-pad2_ dac_bridge_1
+* u168 net-_u102-pad167_ unconnected-_u168-pad2_ dac_bridge_1
+* u169 net-_u102-pad168_ apb_wdata_out0 dac_bridge_1
+* u162 net-_u102-pad161_ unconnected-_u162-pad2_ dac_bridge_1
+* u163 net-_u102-pad162_ unconnected-_u163-pad2_ dac_bridge_1
+* u164 net-_u102-pad163_ unconnected-_u164-pad2_ dac_bridge_1
+* u165 net-_u102-pad164_ unconnected-_u165-pad2_ dac_bridge_1
+* u166 net-_u102-pad165_ unconnected-_u166-pad2_ dac_bridge_1
+* u171 net-_u102-pad170_ unconnected-_u171-pad2_ dac_bridge_1
+* u173 net-_u102-pad172_ unconnected-_u173-pad2_ dac_bridge_1
+* u172 net-_u102-pad171_ unconnected-_u172-pad2_ dac_bridge_1
+* u170 net-_u102-pad169_ unconnected-_u170-pad2_ dac_bridge_1
+* u102 net-_u1-pad2_ net-_u102-pad2_ net-_u102-pad3_ net-_u102-pad4_ net-_u102-pad5_ net-_u102-pad6_ net-_u102-pad7_ net-_u102-pad8_ net-_u102-pad9_ net-_u10-pad2_ net-_u102-pad11_ net-_u102-pad12_ net-_u102-pad13_ net-_u102-pad14_ net-_u102-pad15_ net-_u102-pad16_ net-_u102-pad17_ net-_u102-pad18_ net-_u102-pad19_ net-_u102-pad20_ net-_u102-pad21_ net-_u102-pad22_ net-_u102-pad23_ net-_u102-pad24_ net-_u102-pad25_ net-_u102-pad26_ net-_u102-pad27_ net-_u102-pad28_ net-_u102-pad29_ net-_u102-pad30_ net-_u102-pad31_ net-_u102-pad32_ net-_u102-pad33_ net-_u102-pad34_ net-_u102-pad35_ net-_u102-pad36_ net-_u102-pad37_ net-_u102-pad38_ net-_u102-pad39_ net-_u102-pad40_ net-_u102-pad41_ net-_u102-pad42_ net-_u102-pad43_ net-_u102-pad44_ net-_u102-pad45_ net-_u102-pad46_ net-_u102-pad47_ net-_u102-pad48_ net-_u102-pad49_ net-_u102-pad50_ net-_u102-pad51_ net-_u102-pad52_ net-_u102-pad53_ net-_u102-pad54_ net-_u102-pad55_ net-_u102-pad56_ net-_u102-pad57_ net-_u102-pad58_ net-_u102-pad59_ net-_u102-pad60_ net-_u102-pad61_ net-_u102-pad62_ net-_u102-pad63_ net-_u102-pad64_ net-_u102-pad65_ net-_u102-pad66_ net-_u102-pad67_ net-_u102-pad68_ net-_u102-pad69_ net-_u102-pad70_ net-_u102-pad71_ net-_u102-pad72_ net-_u102-pad73_ net-_u102-pad74_ net-_u102-pad75_ net-_u102-pad76_ net-_u102-pad77_ net-_u102-pad78_ net-_u102-pad79_ net-_u102-pad80_ net-_u102-pad81_ net-_u102-pad82_ net-_u102-pad83_ net-_u102-pad84_ net-_u102-pad85_ net-_u102-pad86_ net-_u102-pad87_ net-_u102-pad88_ net-_u102-pad89_ net-_u102-pad90_ net-_u102-pad91_ net-_u102-pad92_ net-_u102-pad93_ net-_u102-pad94_ net-_u102-pad95_ net-_u102-pad96_ net-_u102-pad97_ net-_u102-pad98_ net-_u102-pad99_ net-_u100-pad2_ net-_u101-pad2_ net-_u102-pad102_ net-_u102-pad103_ net-_u102-pad104_ net-_u102-pad105_ net-_u102-pad106_ net-_u102-pad107_ net-_u102-pad108_ net-_u102-pad109_ net-_u102-pad110_ net-_u102-pad111_ net-_u102-pad112_ net-_u102-pad113_ net-_u102-pad114_ net-_u102-pad115_ net-_u102-pad116_ net-_u102-pad117_ net-_u102-pad118_ net-_u102-pad119_ net-_u102-pad120_ net-_u102-pad121_ net-_u102-pad122_ net-_u102-pad123_ net-_u102-pad124_ net-_u102-pad125_ net-_u102-pad126_ net-_u102-pad127_ net-_u102-pad128_ net-_u102-pad129_ net-_u102-pad130_ net-_u102-pad131_ net-_u102-pad132_ net-_u102-pad133_ net-_u102-pad134_ net-_u102-pad135_ net-_u102-pad136_ net-_u102-pad137_ net-_u102-pad138_ net-_u102-pad139_ net-_u102-pad140_ net-_u102-pad141_ net-_u102-pad142_ net-_u102-pad143_ net-_u102-pad144_ net-_u102-pad145_ net-_u102-pad146_ net-_u102-pad147_ net-_u102-pad148_ net-_u102-pad149_ net-_u102-pad150_ net-_u102-pad151_ net-_u102-pad152_ net-_u102-pad153_ net-_u102-pad154_ net-_u102-pad155_ net-_u102-pad156_ net-_u102-pad157_ net-_u102-pad158_ net-_u102-pad159_ net-_u102-pad160_ net-_u102-pad161_ net-_u102-pad162_ net-_u102-pad163_ net-_u102-pad164_ net-_u102-pad165_ net-_u102-pad166_ net-_u102-pad167_ net-_u102-pad168_ net-_u102-pad169_ net-_u102-pad170_ net-_u102-pad171_ net-_u102-pad172_ net-_u102-pad173_ net-_u102-pad174_ net-_u102-pad175_ net-_u102-pad176_ net-_u102-pad177_ net-_u102-pad178_ net-_u102-pad179_ net-_u102-pad180_ net-_u102-pad181_ net-_u102-pad182_ net-_u102-pad183_ net-_u102-pad184_ net-_u102-pad185_ net-_u102-pad186_ net-_u102-pad187_ net-_u102-pad188_ net-_u102-pad189_ net-_u102-pad190_ net-_u102-pad191_ net-_u102-pad192_ net-_u102-pad193_ net-_u102-pad194_ net-_u102-pad195_ net-_u102-pad196_ net-_u102-pad197_ net-_u102-pad198_ net-_u102-pad199_ net-_u102-pad200_ net-_u102-pad201_ amba_apb_bridge
+* u147 net-_u102-pad146_ unconnected-_u147-pad2_ dac_bridge_1
+* u149 net-_u102-pad148_ unconnected-_u149-pad2_ dac_bridge_1
+* u153 net-_u102-pad152_ unconnected-_u153-pad2_ dac_bridge_1
+* u152 net-_u102-pad151_ unconnected-_u152-pad2_ dac_bridge_1
+* u150 net-_u102-pad149_ unconnected-_u150-pad2_ dac_bridge_1
+* u151 net-_u102-pad150_ unconnected-_u151-pad2_ dac_bridge_1
+* u148 net-_u102-pad147_ unconnected-_u148-pad2_ dac_bridge_1
+* u154 net-_u102-pad153_ unconnected-_u154-pad2_ dac_bridge_1
+* u155 net-_u102-pad154_ unconnected-_u155-pad2_ dac_bridge_1
+* u156 net-_u102-pad155_ unconnected-_u156-pad2_ dac_bridge_1
+* u161 net-_u102-pad160_ unconnected-_u161-pad2_ dac_bridge_1
+* u160 net-_u102-pad159_ unconnected-_u160-pad2_ dac_bridge_1
+* u157 net-_u102-pad156_ unconnected-_u157-pad2_ dac_bridge_1
+* u158 net-_u102-pad157_ unconnected-_u158-pad2_ dac_bridge_1
+* u159 net-_u102-pad158_ unconnected-_u159-pad2_ dac_bridge_1
+* u145 net-_u102-pad144_ unconnected-_u145-pad2_ dac_bridge_1
+* u146 net-_u102-pad145_ unconnected-_u146-pad2_ dac_bridge_1
+* u144 net-_u102-pad143_ unconnected-_u144-pad2_ dac_bridge_1
+* u142 net-_u102-pad141_ unconnected-_u142-pad2_ dac_bridge_1
+* u143 net-_u102-pad142_ unconnected-_u143-pad2_ dac_bridge_1
+* u139 net-_u102-pad138_ unconnected-_u139-pad2_ dac_bridge_1
+* u140 net-_u102-pad139_ unconnected-_u140-pad2_ dac_bridge_1
+* u137 net-_u102-pad136_ apb_addr_out0 dac_bridge_1
+* u141 net-_u102-pad140_ unconnected-_u141-pad2_ dac_bridge_1
+* u138 net-_u102-pad137_ unconnected-_u138-pad2_ dac_bridge_1
+* u209 apb_addr_out0 plot_v1
+* u110 net-_u102-pad109_ unconnected-_u110-pad2_ dac_bridge_1
+* u115 net-_u102-pad114_ unconnected-_u115-pad2_ dac_bridge_1
+* u111 net-_u102-pad110_ unconnected-_u111-pad2_ dac_bridge_1
+* u112 net-_u102-pad111_ unconnected-_u112-pad2_ dac_bridge_1
+* u113 net-_u102-pad112_ unconnected-_u113-pad2_ dac_bridge_1
+* u114 net-_u102-pad113_ unconnected-_u114-pad2_ dac_bridge_1
+* u116 net-_u102-pad115_ unconnected-_u116-pad2_ dac_bridge_1
+* u129 net-_u102-pad128_ unconnected-_u129-pad2_ dac_bridge_1
+* u124 net-_u102-pad123_ unconnected-_u124-pad2_ dac_bridge_1
+* u127 net-_u102-pad126_ unconnected-_u127-pad2_ dac_bridge_1
+* u126 net-_u102-pad125_ unconnected-_u126-pad2_ dac_bridge_1
+* u128 net-_u102-pad127_ unconnected-_u128-pad2_ dac_bridge_1
+* u125 net-_u102-pad124_ unconnected-_u125-pad2_ dac_bridge_1
+* u130 net-_u102-pad129_ unconnected-_u130-pad2_ dac_bridge_1
+* u123 net-_u102-pad122_ unconnected-_u123-pad2_ dac_bridge_1
+* u122 net-_u102-pad121_ unconnected-_u122-pad2_ dac_bridge_1
+* u119 net-_u102-pad118_ unconnected-_u119-pad2_ dac_bridge_1
+* u121 net-_u102-pad120_ unconnected-_u121-pad2_ dac_bridge_1
+* u117 net-_u102-pad116_ unconnected-_u117-pad2_ dac_bridge_1
+* u120 net-_u102-pad119_ unconnected-_u120-pad2_ dac_bridge_1
+* u118 net-_u102-pad117_ unconnected-_u118-pad2_ dac_bridge_1
+* u136 net-_u102-pad135_ unconnected-_u136-pad2_ dac_bridge_1
+* u135 net-_u102-pad134_ unconnected-_u135-pad2_ dac_bridge_1
+* u131 net-_u102-pad130_ unconnected-_u131-pad2_ dac_bridge_1
+* u132 net-_u102-pad131_ unconnected-_u132-pad2_ dac_bridge_1
+* u134 net-_u102-pad133_ unconnected-_u134-pad2_ dac_bridge_1
+* u133 net-_u102-pad132_ unconnected-_u133-pad2_ dac_bridge_1
+* u107 net-_u102-pad106_ unconnected-_u107-pad2_ dac_bridge_1
+* u108 net-_u102-pad107_ unconnected-_u108-pad2_ dac_bridge_1
+* u106 net-_u102-pad105_ unconnected-_u106-pad2_ dac_bridge_1
+* u105 net-_u102-pad104_ apb_write_out dac_bridge_1
+* u104 net-_u102-pad103_ apb_enable_out dac_bridge_1
+* u109 net-_u102-pad108_ unconnected-_u109-pad2_ dac_bridge_1
+* u103 net-_u102-pad102_ apb_sel_out dac_bridge_1
+* u214 apb_write_out plot_v1
+* u213 apb_enable_out plot_v1
+* u212 apb_sel_out plot_v1
+* u188 net-_u102-pad187_ unconnected-_u188-pad2_ dac_bridge_1
+* u189 net-_u102-pad188_ unconnected-_u189-pad2_ dac_bridge_1
+* u187 net-_u102-pad186_ unconnected-_u187-pad2_ dac_bridge_1
+* u190 net-_u102-pad189_ unconnected-_u190-pad2_ dac_bridge_1
+* u186 net-_u102-pad185_ unconnected-_u186-pad2_ dac_bridge_1
+* u191 net-_u102-pad190_ unconnected-_u191-pad2_ dac_bridge_1
+* u192 net-_u102-pad191_ unconnected-_u192-pad2_ dac_bridge_1
+* u182 net-_u102-pad181_ unconnected-_u182-pad2_ dac_bridge_1
+* u185 net-_u102-pad184_ unconnected-_u185-pad2_ dac_bridge_1
+* u184 net-_u102-pad183_ unconnected-_u184-pad2_ dac_bridge_1
+* u183 net-_u102-pad182_ unconnected-_u183-pad2_ dac_bridge_1
+* u181 net-_u102-pad180_ unconnected-_u181-pad2_ dac_bridge_1
+* u180 net-_u102-pad179_ unconnected-_u180-pad2_ dac_bridge_1
+* u179 net-_u102-pad178_ unconnected-_u179-pad2_ dac_bridge_1
+* u211 sys_trans_done plot_v1
+* u210 sys_rdata_out0 plot_v1
+* u201 net-_u102-pad200_ sys_rdata_out0 dac_bridge_1
+* u202 net-_u102-pad201_ sys_trans_done dac_bridge_1
+* u198 net-_u102-pad197_ unconnected-_u198-pad2_ dac_bridge_1
+* u200 net-_u102-pad199_ unconnected-_u200-pad2_ dac_bridge_1
+* u199 net-_u102-pad198_ unconnected-_u199-pad2_ dac_bridge_1
+* u197 net-_u102-pad196_ unconnected-_u197-pad2_ dac_bridge_1
+* u196 net-_u102-pad195_ unconnected-_u196-pad2_ dac_bridge_1
+* u194 net-_u102-pad193_ unconnected-_u194-pad2_ dac_bridge_1
+* u193 net-_u102-pad192_ unconnected-_u193-pad2_ dac_bridge_1
+* u195 net-_u102-pad194_ unconnected-_u195-pad2_ dac_bridge_1
+* u177 net-_u102-pad176_ unconnected-_u177-pad2_ dac_bridge_1
+* u174 net-_u102-pad173_ unconnected-_u174-pad2_ dac_bridge_1
+* u175 net-_u102-pad174_ unconnected-_u175-pad2_ dac_bridge_1
+* u176 net-_u102-pad175_ unconnected-_u176-pad2_ dac_bridge_1
+* u178 net-_u102-pad177_ unconnected-_u178-pad2_ dac_bridge_1
+* u208 apb_wdata_out0 plot_v1
+i1 net-_i1-pad1_ gnd  5v
+* u29 gnd net-_u102-pad29_ adc_bridge_1
+* u32 gnd net-_u102-pad32_ adc_bridge_1
+* u31 gnd net-_u102-pad31_ adc_bridge_1
+* u30 gnd net-_u102-pad30_ adc_bridge_1
+* u28 gnd net-_u102-pad28_ adc_bridge_1
+* u33 gnd net-_u102-pad33_ adc_bridge_1
+* u41 gnd net-_u102-pad41_ adc_bridge_1
+* u40 gnd net-_u102-pad40_ adc_bridge_1
+* u43 gnd net-_u102-pad43_ adc_bridge_1
+* u44 gnd net-_u102-pad44_ adc_bridge_1
+* u39 gnd net-_u102-pad39_ adc_bridge_1
+* u42 gnd net-_u102-pad42_ adc_bridge_1
+* u37 gnd net-_u102-pad37_ adc_bridge_1
+* u36 net-_i1-pad1_ net-_u102-pad36_ adc_bridge_1
+* u34 gnd net-_u102-pad34_ adc_bridge_1
+* u35 gnd net-_u102-pad35_ adc_bridge_1
+* u38 gnd net-_u102-pad38_ adc_bridge_1
+* u25 gnd net-_u102-pad25_ adc_bridge_1
+* u27 gnd net-_u102-pad27_ adc_bridge_1
+* u24 gnd net-_u102-pad24_ adc_bridge_1
+* u23 gnd net-_u102-pad23_ adc_bridge_1
+* u26 gnd net-_u102-pad26_ adc_bridge_1
+* u56 gnd net-_u102-pad56_ adc_bridge_1
+* u52 gnd net-_u102-pad52_ adc_bridge_1
+* u54 gnd net-_u102-pad54_ adc_bridge_1
+* u53 gnd net-_u102-pad53_ adc_bridge_1
+* u55 gnd net-_u102-pad55_ adc_bridge_1
+* u51 gnd net-_u102-pad51_ adc_bridge_1
+* u57 gnd net-_u102-pad57_ adc_bridge_1
+* u45 gnd net-_u102-pad45_ adc_bridge_1
+* u46 gnd net-_u102-pad46_ adc_bridge_1
+* u50 gnd net-_u102-pad50_ adc_bridge_1
+* u49 gnd net-_u102-pad49_ adc_bridge_1
+* u48 gnd net-_u102-pad48_ adc_bridge_1
+* u47 gnd net-_u102-pad47_ adc_bridge_1
+a1 [sys_transfer_req ] [net-_u102-pad3_ ] u3
+a2 [gnd ] [net-_u102-pad5_ ] u5
+a3 [presetn ] [net-_u102-pad2_ ] u2
+a4 [sys_write_req ] [net-_u102-pad4_ ] u4
+a5 [pclk ] [net-_u1-pad2_ ] u1
+a6 [gnd ] [net-_u102-pad7_ ] u7
+a7 [gnd ] [net-_u102-pad6_ ] u6
+a8 [gnd ] [net-_u102-pad8_ ] u8
+a9 [gnd ] [net-_u102-pad9_ ] u9
+a10 [gnd ] [net-_u10-pad2_ ] u10
+a11 [gnd ] [net-_u102-pad12_ ] u12
+a12 [gnd ] [net-_u102-pad13_ ] u13
+a13 [gnd ] [net-_u102-pad11_ ] u11
+a14 [gnd ] [net-_u102-pad14_ ] u14
+a15 [gnd ] [net-_u102-pad15_ ] u15
+a16 [gnd ] [net-_u102-pad16_ ] u16
+a17 [gnd ] [net-_u102-pad19_ ] u19
+a18 [gnd ] [net-_u102-pad22_ ] u22
+a19 [gnd ] [net-_u102-pad18_ ] u18
+a20 [gnd ] [net-_u102-pad17_ ] u17
+a21 [gnd ] [net-_u102-pad21_ ] u21
+a22 [gnd ] [net-_u102-pad20_ ] u20
+a23 [gnd ] [net-_u102-pad89_ ] u89
+a24 [gnd ] [net-_u102-pad92_ ] u92
+a25 [gnd ] [net-_u102-pad93_ ] u93
+a26 [gnd ] [net-_u102-pad90_ ] u90
+a27 [gnd ] [net-_u102-pad91_ ] u91
+a28 [gnd ] [net-_u102-pad94_ ] u94
+a29 [gnd ] [net-_u102-pad95_ ] u95
+a30 [gnd ] [net-_u102-pad86_ ] u86
+a31 [gnd ] [net-_u102-pad87_ ] u87
+a32 [gnd ] [net-_u102-pad85_ ] u85
+a33 [gnd ] [net-_u102-pad84_ ] u84
+a34 [gnd ] [net-_u102-pad88_ ] u88
+a35 [gnd ] [net-_u102-pad99_ ] u99
+a36 [gnd ] [net-_u100-pad2_ ] u100
+a37 [gnd ] [net-_u102-pad96_ ] u96
+a38 [net-_i2-pad1_ ] [net-_u101-pad2_ ] u101
+a39 [gnd ] [net-_u102-pad97_ ] u97
+a40 [gnd ] [net-_u102-pad98_ ] u98
+a41 [gnd ] [net-_u102-pad77_ ] u77
+a42 [gnd ] [net-_u102-pad75_ ] u75
+a43 [gnd ] [net-_u102-pad78_ ] u78
+a44 [gnd ] [net-_u102-pad76_ ] u76
+a45 [gnd ] [net-_u102-pad74_ ] u74
+a46 [gnd ] [net-_u102-pad83_ ] u83
+a47 [gnd ] [net-_u102-pad82_ ] u82
+a48 [gnd ] [net-_u102-pad81_ ] u81
+a49 [gnd ] [net-_u102-pad80_ ] u80
+a50 [gnd ] [net-_u102-pad79_ ] u79
+a51 [gnd ] [net-_u102-pad65_ ] u65
+a52 [apb_ready_in ] [net-_u102-pad69_ ] u69
+a53 [net-_i3-pad1_ ] [net-_u102-pad68_ ] u68
+a54 [gnd ] [net-_u102-pad67_ ] u67
+a55 [gnd ] [net-_u102-pad66_ ] u66
+a56 [gnd ] [net-_u102-pad70_ ] u70
+a57 [gnd ] [net-_u102-pad73_ ] u73
+a58 [gnd ] [net-_u102-pad72_ ] u72
+a59 [gnd ] [net-_u102-pad71_ ] u71
+a60 [gnd ] [net-_u102-pad64_ ] u64
+a61 [gnd ] [net-_u102-pad61_ ] u61
+a62 [gnd ] [net-_u102-pad62_ ] u62
+a63 [gnd ] [net-_u102-pad63_ ] u63
+a64 [gnd ] [net-_u102-pad59_ ] u59
+a65 [gnd ] [net-_u102-pad58_ ] u58
+a66 [gnd ] [net-_u102-pad60_ ] u60
+a67 [net-_u102-pad166_ ] [unconnected-_u167-pad2_ ] u167
+a68 [net-_u102-pad167_ ] [unconnected-_u168-pad2_ ] u168
+a69 [net-_u102-pad168_ ] [apb_wdata_out0 ] u169
+a70 [net-_u102-pad161_ ] [unconnected-_u162-pad2_ ] u162
+a71 [net-_u102-pad162_ ] [unconnected-_u163-pad2_ ] u163
+a72 [net-_u102-pad163_ ] [unconnected-_u164-pad2_ ] u164
+a73 [net-_u102-pad164_ ] [unconnected-_u165-pad2_ ] u165
+a74 [net-_u102-pad165_ ] [unconnected-_u166-pad2_ ] u166
+a75 [net-_u102-pad170_ ] [unconnected-_u171-pad2_ ] u171
+a76 [net-_u102-pad172_ ] [unconnected-_u173-pad2_ ] u173
+a77 [net-_u102-pad171_ ] [unconnected-_u172-pad2_ ] u172
+a78 [net-_u102-pad169_ ] [unconnected-_u170-pad2_ ] u170
+a79 [net-_u1-pad2_ ] [net-_u102-pad2_ ] [net-_u102-pad3_ ] [net-_u102-pad4_ ] [net-_u102-pad5_ net-_u102-pad6_ net-_u102-pad7_ net-_u102-pad8_ net-_u102-pad9_ net-_u10-pad2_ net-_u102-pad11_ net-_u102-pad12_ net-_u102-pad13_ net-_u102-pad14_ net-_u102-pad15_ net-_u102-pad16_ net-_u102-pad17_ net-_u102-pad18_ net-_u102-pad19_ net-_u102-pad20_ net-_u102-pad21_ net-_u102-pad22_ net-_u102-pad23_ net-_u102-pad24_ net-_u102-pad25_ net-_u102-pad26_ net-_u102-pad27_ net-_u102-pad28_ net-_u102-pad29_ net-_u102-pad30_ net-_u102-pad31_ net-_u102-pad32_ net-_u102-pad33_ net-_u102-pad34_ net-_u102-pad35_ net-_u102-pad36_ ] [net-_u102-pad37_ net-_u102-pad38_ net-_u102-pad39_ net-_u102-pad40_ net-_u102-pad41_ net-_u102-pad42_ net-_u102-pad43_ net-_u102-pad44_ net-_u102-pad45_ net-_u102-pad46_ net-_u102-pad47_ net-_u102-pad48_ net-_u102-pad49_ net-_u102-pad50_ net-_u102-pad51_ net-_u102-pad52_ net-_u102-pad53_ net-_u102-pad54_ net-_u102-pad55_ net-_u102-pad56_ net-_u102-pad57_ net-_u102-pad58_ net-_u102-pad59_ net-_u102-pad60_ net-_u102-pad61_ net-_u102-pad62_ net-_u102-pad63_ net-_u102-pad64_ net-_u102-pad65_ net-_u102-pad66_ net-_u102-pad67_ net-_u102-pad68_ ] [net-_u102-pad69_ ] [net-_u102-pad70_ net-_u102-pad71_ net-_u102-pad72_ net-_u102-pad73_ net-_u102-pad74_ net-_u102-pad75_ net-_u102-pad76_ net-_u102-pad77_ net-_u102-pad78_ net-_u102-pad79_ net-_u102-pad80_ net-_u102-pad81_ net-_u102-pad82_ net-_u102-pad83_ net-_u102-pad84_ net-_u102-pad85_ net-_u102-pad86_ net-_u102-pad87_ net-_u102-pad88_ net-_u102-pad89_ net-_u102-pad90_ net-_u102-pad91_ net-_u102-pad92_ net-_u102-pad93_ net-_u102-pad94_ net-_u102-pad95_ net-_u102-pad96_ net-_u102-pad97_ net-_u102-pad98_ net-_u102-pad99_ net-_u100-pad2_ net-_u101-pad2_ ] [net-_u102-pad102_ ] [net-_u102-pad103_ ] [net-_u102-pad104_ ] [net-_u102-pad105_ net-_u102-pad106_ net-_u102-pad107_ net-_u102-pad108_ net-_u102-pad109_ net-_u102-pad110_ net-_u102-pad111_ net-_u102-pad112_ net-_u102-pad113_ net-_u102-pad114_ net-_u102-pad115_ net-_u102-pad116_ net-_u102-pad117_ net-_u102-pad118_ net-_u102-pad119_ net-_u102-pad120_ net-_u102-pad121_ net-_u102-pad122_ net-_u102-pad123_ net-_u102-pad124_ net-_u102-pad125_ net-_u102-pad126_ net-_u102-pad127_ net-_u102-pad128_ net-_u102-pad129_ net-_u102-pad130_ net-_u102-pad131_ net-_u102-pad132_ net-_u102-pad133_ net-_u102-pad134_ net-_u102-pad135_ net-_u102-pad136_ ] [net-_u102-pad137_ net-_u102-pad138_ net-_u102-pad139_ net-_u102-pad140_ net-_u102-pad141_ net-_u102-pad142_ net-_u102-pad143_ net-_u102-pad144_ net-_u102-pad145_ net-_u102-pad146_ net-_u102-pad147_ net-_u102-pad148_ net-_u102-pad149_ net-_u102-pad150_ net-_u102-pad151_ net-_u102-pad152_ net-_u102-pad153_ net-_u102-pad154_ net-_u102-pad155_ net-_u102-pad156_ net-_u102-pad157_ net-_u102-pad158_ net-_u102-pad159_ net-_u102-pad160_ net-_u102-pad161_ net-_u102-pad162_ net-_u102-pad163_ net-_u102-pad164_ net-_u102-pad165_ net-_u102-pad166_ net-_u102-pad167_ net-_u102-pad168_ ] [net-_u102-pad169_ net-_u102-pad170_ net-_u102-pad171_ net-_u102-pad172_ net-_u102-pad173_ net-_u102-pad174_ net-_u102-pad175_ net-_u102-pad176_ net-_u102-pad177_ net-_u102-pad178_ net-_u102-pad179_ net-_u102-pad180_ net-_u102-pad181_ net-_u102-pad182_ net-_u102-pad183_ net-_u102-pad184_ net-_u102-pad185_ net-_u102-pad186_ net-_u102-pad187_ net-_u102-pad188_ net-_u102-pad189_ net-_u102-pad190_ net-_u102-pad191_ net-_u102-pad192_ net-_u102-pad193_ net-_u102-pad194_ net-_u102-pad195_ net-_u102-pad196_ net-_u102-pad197_ net-_u102-pad198_ net-_u102-pad199_ net-_u102-pad200_ ] [net-_u102-pad201_ ] u102
+a80 [net-_u102-pad146_ ] [unconnected-_u147-pad2_ ] u147
+a81 [net-_u102-pad148_ ] [unconnected-_u149-pad2_ ] u149
+a82 [net-_u102-pad152_ ] [unconnected-_u153-pad2_ ] u153
+a83 [net-_u102-pad151_ ] [unconnected-_u152-pad2_ ] u152
+a84 [net-_u102-pad149_ ] [unconnected-_u150-pad2_ ] u150
+a85 [net-_u102-pad150_ ] [unconnected-_u151-pad2_ ] u151
+a86 [net-_u102-pad147_ ] [unconnected-_u148-pad2_ ] u148
+a87 [net-_u102-pad153_ ] [unconnected-_u154-pad2_ ] u154
+a88 [net-_u102-pad154_ ] [unconnected-_u155-pad2_ ] u155
+a89 [net-_u102-pad155_ ] [unconnected-_u156-pad2_ ] u156
+a90 [net-_u102-pad160_ ] [unconnected-_u161-pad2_ ] u161
+a91 [net-_u102-pad159_ ] [unconnected-_u160-pad2_ ] u160
+a92 [net-_u102-pad156_ ] [unconnected-_u157-pad2_ ] u157
+a93 [net-_u102-pad157_ ] [unconnected-_u158-pad2_ ] u158
+a94 [net-_u102-pad158_ ] [unconnected-_u159-pad2_ ] u159
+a95 [net-_u102-pad144_ ] [unconnected-_u145-pad2_ ] u145
+a96 [net-_u102-pad145_ ] [unconnected-_u146-pad2_ ] u146
+a97 [net-_u102-pad143_ ] [unconnected-_u144-pad2_ ] u144
+a98 [net-_u102-pad141_ ] [unconnected-_u142-pad2_ ] u142
+a99 [net-_u102-pad142_ ] [unconnected-_u143-pad2_ ] u143
+a100 [net-_u102-pad138_ ] [unconnected-_u139-pad2_ ] u139
+a101 [net-_u102-pad139_ ] [unconnected-_u140-pad2_ ] u140
+a102 [net-_u102-pad136_ ] [apb_addr_out0 ] u137
+a103 [net-_u102-pad140_ ] [unconnected-_u141-pad2_ ] u141
+a104 [net-_u102-pad137_ ] [unconnected-_u138-pad2_ ] u138
+a105 [net-_u102-pad109_ ] [unconnected-_u110-pad2_ ] u110
+a106 [net-_u102-pad114_ ] [unconnected-_u115-pad2_ ] u115
+a107 [net-_u102-pad110_ ] [unconnected-_u111-pad2_ ] u111
+a108 [net-_u102-pad111_ ] [unconnected-_u112-pad2_ ] u112
+a109 [net-_u102-pad112_ ] [unconnected-_u113-pad2_ ] u113
+a110 [net-_u102-pad113_ ] [unconnected-_u114-pad2_ ] u114
+a111 [net-_u102-pad115_ ] [unconnected-_u116-pad2_ ] u116
+a112 [net-_u102-pad128_ ] [unconnected-_u129-pad2_ ] u129
+a113 [net-_u102-pad123_ ] [unconnected-_u124-pad2_ ] u124
+a114 [net-_u102-pad126_ ] [unconnected-_u127-pad2_ ] u127
+a115 [net-_u102-pad125_ ] [unconnected-_u126-pad2_ ] u126
+a116 [net-_u102-pad127_ ] [unconnected-_u128-pad2_ ] u128
+a117 [net-_u102-pad124_ ] [unconnected-_u125-pad2_ ] u125
+a118 [net-_u102-pad129_ ] [unconnected-_u130-pad2_ ] u130
+a119 [net-_u102-pad122_ ] [unconnected-_u123-pad2_ ] u123
+a120 [net-_u102-pad121_ ] [unconnected-_u122-pad2_ ] u122
+a121 [net-_u102-pad118_ ] [unconnected-_u119-pad2_ ] u119
+a122 [net-_u102-pad120_ ] [unconnected-_u121-pad2_ ] u121
+a123 [net-_u102-pad116_ ] [unconnected-_u117-pad2_ ] u117
+a124 [net-_u102-pad119_ ] [unconnected-_u120-pad2_ ] u120
+a125 [net-_u102-pad117_ ] [unconnected-_u118-pad2_ ] u118
+a126 [net-_u102-pad135_ ] [unconnected-_u136-pad2_ ] u136
+a127 [net-_u102-pad134_ ] [unconnected-_u135-pad2_ ] u135
+a128 [net-_u102-pad130_ ] [unconnected-_u131-pad2_ ] u131
+a129 [net-_u102-pad131_ ] [unconnected-_u132-pad2_ ] u132
+a130 [net-_u102-pad133_ ] [unconnected-_u134-pad2_ ] u134
+a131 [net-_u102-pad132_ ] [unconnected-_u133-pad2_ ] u133
+a132 [net-_u102-pad106_ ] [unconnected-_u107-pad2_ ] u107
+a133 [net-_u102-pad107_ ] [unconnected-_u108-pad2_ ] u108
+a134 [net-_u102-pad105_ ] [unconnected-_u106-pad2_ ] u106
+a135 [net-_u102-pad104_ ] [apb_write_out ] u105
+a136 [net-_u102-pad103_ ] [apb_enable_out ] u104
+a137 [net-_u102-pad108_ ] [unconnected-_u109-pad2_ ] u109
+a138 [net-_u102-pad102_ ] [apb_sel_out ] u103
+a139 [net-_u102-pad187_ ] [unconnected-_u188-pad2_ ] u188
+a140 [net-_u102-pad188_ ] [unconnected-_u189-pad2_ ] u189
+a141 [net-_u102-pad186_ ] [unconnected-_u187-pad2_ ] u187
+a142 [net-_u102-pad189_ ] [unconnected-_u190-pad2_ ] u190
+a143 [net-_u102-pad185_ ] [unconnected-_u186-pad2_ ] u186
+a144 [net-_u102-pad190_ ] [unconnected-_u191-pad2_ ] u191
+a145 [net-_u102-pad191_ ] [unconnected-_u192-pad2_ ] u192
+a146 [net-_u102-pad181_ ] [unconnected-_u182-pad2_ ] u182
+a147 [net-_u102-pad184_ ] [unconnected-_u185-pad2_ ] u185
+a148 [net-_u102-pad183_ ] [unconnected-_u184-pad2_ ] u184
+a149 [net-_u102-pad182_ ] [unconnected-_u183-pad2_ ] u183
+a150 [net-_u102-pad180_ ] [unconnected-_u181-pad2_ ] u181
+a151 [net-_u102-pad179_ ] [unconnected-_u180-pad2_ ] u180
+a152 [net-_u102-pad178_ ] [unconnected-_u179-pad2_ ] u179
+a153 [net-_u102-pad200_ ] [sys_rdata_out0 ] u201
+a154 [net-_u102-pad201_ ] [sys_trans_done ] u202
+a155 [net-_u102-pad197_ ] [unconnected-_u198-pad2_ ] u198
+a156 [net-_u102-pad199_ ] [unconnected-_u200-pad2_ ] u200
+a157 [net-_u102-pad198_ ] [unconnected-_u199-pad2_ ] u199
+a158 [net-_u102-pad196_ ] [unconnected-_u197-pad2_ ] u197
+a159 [net-_u102-pad195_ ] [unconnected-_u196-pad2_ ] u196
+a160 [net-_u102-pad193_ ] [unconnected-_u194-pad2_ ] u194
+a161 [net-_u102-pad192_ ] [unconnected-_u193-pad2_ ] u193
+a162 [net-_u102-pad194_ ] [unconnected-_u195-pad2_ ] u195
+a163 [net-_u102-pad176_ ] [unconnected-_u177-pad2_ ] u177
+a164 [net-_u102-pad173_ ] [unconnected-_u174-pad2_ ] u174
+a165 [net-_u102-pad174_ ] [unconnected-_u175-pad2_ ] u175
+a166 [net-_u102-pad175_ ] [unconnected-_u176-pad2_ ] u176
+a167 [net-_u102-pad177_ ] [unconnected-_u178-pad2_ ] u178
+a168 [gnd ] [net-_u102-pad29_ ] u29
+a169 [gnd ] [net-_u102-pad32_ ] u32
+a170 [gnd ] [net-_u102-pad31_ ] u31
+a171 [gnd ] [net-_u102-pad30_ ] u30
+a172 [gnd ] [net-_u102-pad28_ ] u28
+a173 [gnd ] [net-_u102-pad33_ ] u33
+a174 [gnd ] [net-_u102-pad41_ ] u41
+a175 [gnd ] [net-_u102-pad40_ ] u40
+a176 [gnd ] [net-_u102-pad43_ ] u43
+a177 [gnd ] [net-_u102-pad44_ ] u44
+a178 [gnd ] [net-_u102-pad39_ ] u39
+a179 [gnd ] [net-_u102-pad42_ ] u42
+a180 [gnd ] [net-_u102-pad37_ ] u37
+a181 [net-_i1-pad1_ ] [net-_u102-pad36_ ] u36
+a182 [gnd ] [net-_u102-pad34_ ] u34
+a183 [gnd ] [net-_u102-pad35_ ] u35
+a184 [gnd ] [net-_u102-pad38_ ] u38
+a185 [gnd ] [net-_u102-pad25_ ] u25
+a186 [gnd ] [net-_u102-pad27_ ] u27
+a187 [gnd ] [net-_u102-pad24_ ] u24
+a188 [gnd ] [net-_u102-pad23_ ] u23
+a189 [gnd ] [net-_u102-pad26_ ] u26
+a190 [gnd ] [net-_u102-pad56_ ] u56
+a191 [gnd ] [net-_u102-pad52_ ] u52
+a192 [gnd ] [net-_u102-pad54_ ] u54
+a193 [gnd ] [net-_u102-pad53_ ] u53
+a194 [gnd ] [net-_u102-pad55_ ] u55
+a195 [gnd ] [net-_u102-pad51_ ] u51
+a196 [gnd ] [net-_u102-pad57_ ] u57
+a197 [gnd ] [net-_u102-pad45_ ] u45
+a198 [gnd ] [net-_u102-pad46_ ] u46
+a199 [gnd ] [net-_u102-pad50_ ] u50
+a200 [gnd ] [net-_u102-pad49_ ] u49
+a201 [gnd ] [net-_u102-pad48_ ] u48
+a202 [gnd ] [net-_u102-pad47_ ] u47
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u3 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u5 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u2 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u4 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u1 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u7 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u6 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u8 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u9 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u10 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u12 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u13 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u11 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u14 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u15 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u16 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u19 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u22 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u18 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u17 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u21 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u20 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u89 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u92 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u93 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u90 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u91 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u94 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u95 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u86 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u87 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u85 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u84 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u88 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u99 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u100 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u96 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u101 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u97 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u98 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u77 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u75 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u78 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u76 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u74 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u83 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u82 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u81 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u80 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u79 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u65 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u69 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u68 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u67 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u66 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u70 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u73 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u72 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u71 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u64 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u61 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u62 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u63 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u59 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u58 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u60 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u167 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u168 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u169 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u162 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u163 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u164 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u165 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u166 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u171 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u173 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u172 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u170 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             amba_apb_bridge, Ngspice Name: amba_apb_bridge
+.model u102 amba_apb_bridge(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u147 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u149 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u153 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u152 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u150 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u151 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u148 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u154 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u155 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u156 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u161 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u160 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u157 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u158 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u159 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u145 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u146 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u144 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u142 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u143 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u139 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u140 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u137 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u141 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u138 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u110 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u115 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u111 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u112 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u113 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u114 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u116 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u129 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u124 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u127 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u126 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u128 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u125 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u130 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u123 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u122 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u119 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u121 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u117 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u120 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u118 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u136 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u135 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u131 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u132 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u134 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u133 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u107 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u108 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u106 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u105 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u104 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u109 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u103 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u188 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u189 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u187 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u190 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u186 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u191 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u192 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u182 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u185 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u184 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u183 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u181 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u180 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u179 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u201 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u202 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u198 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u200 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u199 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u197 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u196 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u194 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u193 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u195 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u177 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u174 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u175 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u176 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_1, Ngspice Name: dac_bridge
+.model u178 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u29 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u32 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u31 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u30 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u28 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u33 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u41 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u40 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u43 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u44 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u39 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u42 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u37 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u36 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u34 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u35 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u38 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u25 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u27 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u24 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u23 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u26 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u56 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u52 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u54 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u53 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u55 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u51 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u57 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u45 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u46 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u50 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u49 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u48 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, Ngspice Name: adc_bridge
+.model u47 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+.tran 1e-09 200e-09 0e-00
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+plot v(sys_transfer_req)
+plot v(sys_write_req)
+plot v(pclk)
+plot v(presetn)
+plot v(apb_ready_in)
+plot v(apb_addr_out0)
+plot v(apb_write_out)
+plot v(apb_enable_out)
+plot v(apb_sel_out)
+plot v(sys_trans_done)
+plot v(sys_rdata_out0)
+plot v(apb_wdata_out0)
+.endc
+.end

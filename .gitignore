@@ -1,0 +1,15 @@
+# Ngspice & eSim temporary simulation outputs
+*.raw
+plot_data_v.txt
+plot_data_i.txt
+
+# KiCad local state, locks, and backups
+*-backups/
+*.kicad_prl
+*.lck
+fp-info-cache
+
+# OS / Editor clutter
+.DS_Store
+*.swp
+*~
